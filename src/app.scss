@@ -1,0 +1,74 @@
+@import './style/reset';
+@import './style/design';
+
+body {
+  background: $backgroundColor;
+  color: $color;
+}
+
+h1{
+  font-size: $font-size;
+  padding: 25px;
+  text-align: center;
+  
+}
+h1:hover{
+  color:blue;
+  
+}
+
+section.counter{
+  text-align:center;
+  font-size:100px;
+}
+
+a.up.clicker{
+  border: $border;
+  background-color:black;
+  padding-left: 20px;
+  padding-right:20px;
+}
+a.up.clicker:hover{
+  background-color:rgb(67, 2, 83);
+  color:black;
+}
+
+a.down.clicker{
+border: $border;
+background-color: black;
+padding-left: 20px;
+padding-right:20px;
+}
+a.down.clicker:hover{
+  background-color:rgb(67, 2, 83);
+  color:black;
+}
+
+span.count{
+margin: 25px;
+}
+span.count:hover{
+  color:rgb(82, 7, 133);
+  background: radial-gradient(circle, rgba(63,251,247,1) 0%, rgba(83,185,164,1) 46%, rgba(72,70,252,1) 100%);
+  border:solid rgb(82, 7, 133) 5px;
+  border-radius:100%;
+}
+
+footer{
+padding:25px;
+text-align:center;
+}
+footer:hover{
+  color:red;
+}
+h2{
+  font-size: $font-size;
+  padding: 25px;
+  text-align: center;
+}
+h2:hover{
+  color: cyan;
+}
+html{
+  background-color:rgba(6,6,6,1);
+}
